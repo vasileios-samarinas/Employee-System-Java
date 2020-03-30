@@ -33,5 +33,17 @@ public class ManagerTest {
         assertEquals("Corporate Actions",manager.getDeptName());
     }
 
+    @Test
+    public void managerHasRaisedSalary(){
+        manager.raiseSalary(100);
+        assertEquals(20100,manager.getSalary(),0.01);
+    }
+
+    @Test
+    public void managerHasBeenPaidBonus(){
+        assertEquals(200,manager.payBonus(),0.01);
+    }
+
+
 
 }
