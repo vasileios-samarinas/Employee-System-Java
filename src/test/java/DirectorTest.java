@@ -3,6 +3,7 @@ import org.junit.Test;
 import staff.management.Director;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class DirectorTest {
 
@@ -17,4 +18,10 @@ public class DirectorTest {
     public void hasBudget(){
         assertEquals(1000000,director.getBudget(),0.01);
     }
+
+    @Test
+    public void hasHigherBonus(){
+        assertEquals(800.0,director.payBonus(),0.01);
+    }
+
 }
