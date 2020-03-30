@@ -5,6 +5,7 @@ import staff.management.Manager;
 
 import static org.junit.Assert.assertEquals;
 
+
 public class EmployeeTest {
 
     Employee employee;
@@ -32,6 +33,12 @@ public class EmployeeTest {
     public void hasRaisedSalary(){
         employee.raiseSalary(100);
         assertEquals(20100,employee.getSalary(),0.01);
+    }
+
+    @Test
+    public void hasNotRaisedSalary(){
+        employee.raiseSalary(-50);
+        assertEquals(20000,employee.getSalary(),0.01);
     }
 
     @Test
