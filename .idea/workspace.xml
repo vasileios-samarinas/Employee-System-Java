@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="19bdcefa-bb3e-44f8-ac7b-cc4a89d674f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +39,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="JUnit.All in employee_lab">
+  <component name="RunManager" selected="JUnit.DirectorTest.hasBudget">
     <configuration name="All in employee_lab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="employee_lab" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirectorTest.hasBudget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employee_lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="METHOD_NAME" value="hasBudget" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DirectorTest.hasBudget" />
         <item itemvalue="JUnit.All in employee_lab" />
         <item itemvalue="JUnit.ManagerTest" />
         <item itemvalue="JUnit.ManagerTest.managerHasBeenPaidBonus" />
@@ -113,25 +123,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="68" key="#com.intellij.ide.util.MemberChooser" timestamp="1585585113080">
+    <state x="453" y="68" key="#com.intellij.ide.util.MemberChooser" timestamp="1585585902777">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state x="453" y="68" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709@0.23.1280.709" timestamp="1585585113080" />
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1585583358660">
+    <state x="453" y="68" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709@0.23.1280.709" timestamp="1585585902777" />
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1585585984420">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1585583358660" />
-    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1585583358658">
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1585585984420" />
+    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1585585984418">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1585583358658" />
-    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1585583358657">
+    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1585585984418" />
+    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1585585984418">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1585583358657" />
-    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1585583358659">
+    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1585585984418" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1585585984419">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1585583358659" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1585585984419" />
   </component>
 </project>
