@@ -3,9 +3,9 @@ package staff;
 public abstract class Employee {
 
 
-    String name;
-    String NiNumber;
-    double salary;
+    private String name;
+    private String NiNumber;
+    private double salary;
 
     public Employee(String name, String NiNumber, double salary) {
         this.name=name;

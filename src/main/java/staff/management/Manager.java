@@ -4,7 +4,7 @@ import staff.Employee;
 
 public class Manager extends Employee {
 
-    String deptName;
+    private String deptName;
 
     public Manager(String name, String NiNumber, double salary,String deptName) {
         super(name, NiNumber, salary);
